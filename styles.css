@@ -1,0 +1,20 @@
+* {
+    display: flexbox;
+}
+
+#nav-bar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+@media (min-with: 769px) {
+    .header-topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+}
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <!--Your product landing page should have a header element with a corresponding id="header"-->
+    <header id="header" class="header-topbar">
+        <!--You can see an image within the header element with a corresponding id="header-img" (A logo would make a good image here)-->
+            <img id="header-img" src="logo.png" alt="prodcut img">
+        <!--Within the #header element, you can see a nav element with a corresponding id="nav-bar"-->
+        <nav id="nav-bar">
+            <!--You can see at least three clickable elements inside the nav element, each with the class nav-link-->
+            <ul>
+                <!--When you click a .nav-link button in the nav element, you are taken to the corresponding section of the landing page-->
+                <li ><a class="nav-link" href="#features"></a> Features</li>
+                <li ><a class="nav-link" href="#specs"></a> How it Works</li>
+                <li ><a class="nav-link" href="#pricing"></a> Pricing</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <!--Within the form, there is an input field with id="email" where you can enter an email address-->
+            <form form id = "form" action = " https://www.freecodecamp.com/email-submit" method="post">
+                <label for="email"> Enter Your email address:</label>address>
+                <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+                <input type="submit" id="submit" value="submit">Submit</input>
+            </form>
+
+        </div>
+        <section id="features">
+
+        </section>
+        <section id="specs">
+            <iframe width="500" height="300" id="video" src="https://www.youtube.com/watch?v=G63ns01gZqM&ab_channel=JonRettinger" frameborder="0"></iframe>
+        </section>
+        <section id="pricing">
+
+        </section>
+    </main>
+    <footer>
+        <div>
+            <ul>
+                <li> <a href="#"></a> Privacy</li>
+                <li> <a href="#"></a> Terms</li>
+                <li> <a href="#"></a> Contact</li>
+            </ul>
+            <span> Copyright 2023, TV for all</span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+   
+      
